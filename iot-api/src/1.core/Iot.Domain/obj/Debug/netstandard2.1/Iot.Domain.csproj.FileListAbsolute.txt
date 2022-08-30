@@ -1,0 +1,10 @@
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\bin\Debug\netstandard2.1\Iot.Domain.deps.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\bin\Debug\netstandard2.1\Iot.Domain.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\bin\Debug\netstandard2.1\Iot.Domain.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.csproj.AssemblyReference.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.AssemblyInfoInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.AssemblyInfo.cs
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.csproj.CoreCompileInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Domain\obj\Debug\netstandard2.1\Iot.Domain.pdb

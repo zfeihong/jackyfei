@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {}
+  },
+  "projects": {
+    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
+        "projectName": "Iot.Application",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
+        "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\41696\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/c7540f8d-c25d-4c9b-a2c4-2ea19759b9c2/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
+        "projectName": "Iot.Domain",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
+        "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\41696\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/c7540f8d-c25d-4c9b-a2c4-2ea19759b9c2/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
+        "projectName": "Iot.Identity",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
+        "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\41696\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/c7540f8d-c25d-4c9b-a2c4-2ea19759b9c2/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.8, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
