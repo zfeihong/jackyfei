@@ -13,3 +13,18 @@ D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Applicati
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Application\obj\Debug\net6.0\ref\Iot.Application.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.pdb
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\1.core\Iot.Application\bin\Debug\net6.0\ref\Iot.Application.dll
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.deps.json
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.dll
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.pdb
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Domain.dll
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Domain.pdb
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.csproj.AssemblyReference.cache
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.AssemblyInfoInputs.cache
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.AssemblyInfo.cs
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.csproj.CoreCompileInputs.cache
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.csproj.CopyComplete
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.dll
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\refint\Iot.Application.dll
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.pdb
+D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\ref\Iot.Application.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj": {}
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
         "projectName": "Iot.Application",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj"
               }
             }
           }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
         "projectName": "Iot.Domain",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -176,14 +176,14 @@
         }
       }
     },
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj",
         "projectName": "Iot.Data",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -206,11 +206,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
               },
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj"
               }
             }
           }
@@ -250,14 +250,14 @@
         }
       }
     },
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
         "projectName": "Iot.Identity",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -280,8 +280,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
               }
             }
           }
@@ -335,14 +335,14 @@
         }
       }
     },
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj",
         "projectName": "Iot.Shared",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -365,8 +365,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
               }
             }
           }
@@ -418,14 +418,14 @@
         }
       }
     },
-    "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj": {
+    "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj",
+        "projectUniqueName": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj",
         "projectName": "Iot.WebApi",
-        "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj",
+        "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\3.presentation\\Iot.WebApi\\Iot.WebApi.csproj",
         "packagesPath": "C:\\Users\\41696\\.nuget\\packages\\",
-        "outputPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\3.presentation\\Iot.WebApi\\obj\\",
+        "outputPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\3.presentation\\Iot.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -448,17 +448,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Application\\Iot.Application.csproj"
               },
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Data\\Iot.Data.csproj"
               },
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj"
               },
-              "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj": {
-                "projectPath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\src\\iot\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj"
+              "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj": {
+                "projectPath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Shared\\Iot.Shared.csproj"
               }
             }
           }
@@ -526,6 +526,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "VueCliMiddleware": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
