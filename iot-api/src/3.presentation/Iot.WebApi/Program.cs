@@ -15,7 +15,8 @@ using Serilog.Exceptions;
 using Serilog.Formatting.Compact;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
-using VueCliMiddleware;
+//using VueCliMiddleware;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -69,14 +70,11 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 #endregion
 
-#region Swagger
-
 //添加一个单页（SPA）的静态文件服务，确保放在SwaggerGenOptions下。
-builder.Services.AddSpaStaticFiles(configuration =>
-{
-    configuration.RootPath = "../vue-app/dist";
-});
-# endregion
+//builder.Services.AddSpaStaticFiles(configuration =>
+//{
+//    configuration.RootPath = "../vue-app/dist";
+//});
 
 #region ApiVersion
 builder.Services.AddApiVersioning(config =>
@@ -110,29 +108,29 @@ if (app.Environment.IsDevelopment())
         }
     });
 }
-else
-{
-    app.UseSpaStaticFiles();
-}
+
+//app.UseStaticFiles();
+//if (!app.Environment.IsDevelopment())
+//{
+//    app.UseSpaStaticFiles();
+//}
 
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseMiddleware<JwtMiddleware>();
 app.UseAuthorization();
 
+//app.UseSpa(spa =>
+//{
+//    spa.Options.SourcePath = "../vue-app";
+
+//    if (app.Environment.IsDevelopment())
+//    {
+//        spa.UseVueCli(npmScript: "serve");
+//    }
+//});
+
 app.MapControllers();
-
-app.UseSpa(spa =>
-{
-    //将源路径添加到UseSpa
-    spa.Options.SourcePath = "../vue-app";
-
-    if (app.Environment.IsDevelopment())
-    {
-        //并在开发环境中运行Vue CLI服务
-        spa.UseVueCli(npmScript: "serve");
-    }
-});
 
 var name = Assembly.GetExecutingAssembly().GetName();
 Log.Logger = new LoggerConfiguration()

@@ -1,0 +1,17 @@
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Shared.deps.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Shared.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\ref\Iot.Shared.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Shared.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Application.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Domain.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Application.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Release\net6.0\Iot.Domain.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.csproj.AssemblyReference.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.AssemblyInfoInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.AssemblyInfo.cs
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.csproj.CoreCompileInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.csproj.CopyComplete
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\ref\Iot.Shared.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Release\net6.0\Iot.Shared.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BFbaqpD7zShc1I3kGrpDfHTVem9w2rF01Apb9hramJcm4tP011xGYnk6bPE/vp1HEdH2o4dB7H9eFPnJLKY/dQ==",
+  "dgSpecHash": "dUROhIFsiBhTKqPJ2ANmng71MvVHJp6hjvgRBony4Zb47HlFoPd/yA1c6GcpON8sBxmTDO38RkZmh321cD0aOw==",
   "success": true,
-  "projectFilePath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
+  "projectFilePath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\github\\jackyfei\\iot-api\\src\\1.core\\Iot.Domain\\Iot.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

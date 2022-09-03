@@ -23,8 +23,8 @@ namespace Iot.Identity.Services
                 Id = 1,
                 FirstName = "jacky",
                 LastName = "fei",
-                Username = "admin",
-                Password = "123qwe"
+                Username = "string",
+                Password = "string"
             }
         };
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gmgJ1R/1JUzCm/3cHJ9yWnLfW8OoiHrMf4OAyYA56LxSfM3tCdKAPUo4tTCjoecaLbPBcZttBVB3rwzI1yosjg==",
+  "dgSpecHash": "ro6u6CqHGLTSuIQ8O5NSA49grfy5Wz8nG3qSOn6MCFeJMZUZNiThH6EpAhEL11jokjKBpH/51tQwQixOBQ+Wlw==",
   "success": true,
-  "projectFilePath": "D:\\jackyfei\\我录制的视频\\源码\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
+  "projectFilePath": "D:\\jackyfei\\我录制的视频\\.NET 6.0+Vue 3.0\\github\\jackyfei\\iot-api\\src\\2.infrastructure\\Iot.Identity\\Iot.Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\41696\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\41696\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

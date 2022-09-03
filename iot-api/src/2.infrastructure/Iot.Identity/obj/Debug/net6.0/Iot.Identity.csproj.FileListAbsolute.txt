@@ -1,34 +1,17 @@
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.deps.json
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\ref\Iot.Identity.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.AssemblyReference.cache
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.GeneratedMSBuildEditorConfig.editorconfig
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfoInputs.cache
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfo.cs
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CoreCompileInputs.cache
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CopyComplete
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\ref\Iot.Identity.dll
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\src\iot\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.pdb
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.deps.json
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.dll
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.pdb
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.dll
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.dll
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.pdb
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.pdb
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.AssemblyReference.cache
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.GeneratedMSBuildEditorConfig.editorconfig
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfoInputs.cache
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfo.cs
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CoreCompileInputs.cache
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CopyComplete
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.dll
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\refint\Iot.Identity.dll
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.pdb
-D:\jackyfei\我录制的视频\源码\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\ref\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.deps.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Identity.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Application.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\Iot.Domain.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.AssemblyReference.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.GeneratedMSBuildEditorConfig.editorconfig
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfoInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.AssemblyInfo.cs
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CoreCompileInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.csproj.CopyComplete
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\ref\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\obj\Debug\net6.0\Iot.Identity.pdb
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Identity\bin\Debug\net6.0\ref\Iot.Identity.dll
