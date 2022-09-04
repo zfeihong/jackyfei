@@ -1,5 +1,6 @@
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\bin\Debug\net6.0\Iot.Domain.deps.json
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\bin\Debug\net6.0\Iot.Domain.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\bin\Debug\net6.0\ref\Iot.Domain.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\bin\Debug\net6.0\Iot.Domain.pdb
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\obj\Debug\net6.0\Iot.Domain.csproj.AssemblyReference.cache
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\obj\Debug\net6.0\Iot.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,4 +10,3 @@ D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.co
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\obj\Debug\net6.0\Iot.Domain.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\obj\Debug\net6.0\ref\Iot.Domain.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\obj\Debug\net6.0\Iot.Domain.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Domain\bin\Debug\net6.0\ref\Iot.Domain.dll

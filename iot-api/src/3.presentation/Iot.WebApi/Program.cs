@@ -30,6 +30,7 @@ builder.Services.AddInfrastructureIdentity(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+ 
 //builder.Services.AddSwaggerGen();
 # region Swagger
 //builder.Services.AddSwaggerGen();
@@ -76,6 +77,22 @@ builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwa
 //    configuration.RootPath = "../vue-app/dist";
 //});
 
+//builder.Services.AddCors();
+builder.Services.AddCors(c =>
+{
+
+    //一般采用这种方法
+    c.AddPolicy("LimitRequests", policy =>
+    {
+        // 支持多个域名端口，注意端口号后不要带/斜杆：比如localhost:8000/，是错的
+        // 注意，http://127.0.0.1:5401 和 http://localhost:5401 是不一样的，尽量写两个
+        policy
+        .WithOrigins("http://127.0.0.1:5401", "http://localhost:5401", "http://127.0.0.1:3000", "http://localhost:3000")
+        .AllowAnyHeader()//允许任何标头
+        .AllowAnyMethod();//允许任何方法
+    });
+});
+
 #region ApiVersion
 builder.Services.AddApiVersioning(config =>
 {
@@ -109,11 +126,21 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-//app.UseStaticFiles();
+app.UseStaticFiles();
 //if (!app.Environment.IsDevelopment())
 //{
 //    app.UseSpaStaticFiles();
 //}
+
+//将 CORS 中间件添加到 web 应用程序管线中, 以允许跨域请求。
+app.UseCors("LimitRequests");
+
+//app.UseCors(b => {
+//    b.AllowAnyOrigin();
+//    b.AllowAnyHeader();
+//    b.AllowAnyMethod();
+//});
+
 
 app.UseHttpsRedirection();
 app.UseRouting();

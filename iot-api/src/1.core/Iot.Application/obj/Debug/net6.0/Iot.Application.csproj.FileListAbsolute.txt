@@ -1,5 +1,6 @@
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.deps.json
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\ref\Iot.Application.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Application.pdb
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Domain.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\Iot.Domain.pdb
@@ -12,4 +13,3 @@ D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.co
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\ref\Iot.Application.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\obj\Debug\net6.0\Iot.Application.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\1.core\Iot.Application\bin\Debug\net6.0\ref\Iot.Application.dll

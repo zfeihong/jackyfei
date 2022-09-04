@@ -1,5 +1,6 @@
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\Iot.Shared.deps.json
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\Iot.Shared.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\ref\Iot.Shared.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\Iot.Shared.pdb
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\Iot.Application.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\Iot.Domain.dll
@@ -14,4 +15,3 @@ D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.in
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Debug\net6.0\Iot.Shared.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Debug\net6.0\ref\Iot.Shared.dll
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\obj\Debug\net6.0\Iot.Shared.pdb
-D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\2.infrastructure\Iot.Shared\bin\Debug\net6.0\ref\Iot.Shared.dll
