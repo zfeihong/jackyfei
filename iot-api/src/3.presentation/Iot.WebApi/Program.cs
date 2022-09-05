@@ -87,7 +87,7 @@ builder.Services.AddCors(c =>
         // 支持多个域名端口，注意端口号后不要带/斜杆：比如localhost:8000/，是错的
         // 注意，http://127.0.0.1:5401 和 http://localhost:5401 是不一样的，尽量写两个
         policy
-        .WithOrigins("http://127.0.0.1:5401", "http://localhost:5401", "http://127.0.0.1:3000", "http://localhost:3000")
+        .WithOrigins("http://127.0.0.1:8080", "http://localhost:8080", "http://127.0.0.1:3000", "http://localhost:3000")
         .AllowAnyHeader()//允许任何标头
         .AllowAnyMethod();//允许任何方法
     });
