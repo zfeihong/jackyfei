@@ -53,6 +53,7 @@
 import { getWeatherForecastV2Axios } from "@/api/weather-forecast-services";
 import relativeTime from "dayjs/plugin/relativeTime";
 import dayjs from "dayjs";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "WeatherForecast",
@@ -61,6 +62,8 @@ export default {
     dayjs.extend(relativeTime);
     await this.fetchWeatherForecast(this.selectedCity);
     this.loading = false;
+    await this.getProductAction();
+    this.cities = this.lists.map((pl) => pl.city);
   },
   data() {
     return {
@@ -71,6 +74,8 @@ export default {
     };
   },
   methods: {
+    ...mapActions("productModule", ["getProductAction"]),
+
     async fetchWeatherForecast(city = "Oslo") {
       this.loading = true;
       try {
@@ -114,6 +119,11 @@ export default {
           return "grey";
       }
     },
+  },
+  computed: {
+    ...mapGetters("productModule", {
+      lists: "lists",
+    }),
   },
 };
 </script>

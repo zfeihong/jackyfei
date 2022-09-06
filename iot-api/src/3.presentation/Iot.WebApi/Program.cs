@@ -3,6 +3,7 @@ using Iot.Data;
 using Iot.Identity;
 using Iot.Identity.Helper;
 using Iot.Shared;
+using Iot.WebApi.Extensions;
 using Iot.WebApi.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
@@ -22,54 +23,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddApplication(builder.Configuration);
-builder.Services.AddInfrastructureData();
+builder.Services.AddInfrastructureData(builder.Configuration);
 builder.Services.AddInfrastructureShared(builder.Configuration);
 builder.Services.AddInfrastructureIdentity(builder.Configuration);
-
-
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
- 
-//builder.Services.AddSwaggerGen();
-# region Swagger
-//builder.Services.AddSwaggerGen();
 
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.OperationFilter<SwaggerDefaultValues>();
-//});
-
-builder.Services.AddSwaggerGen(c =>
-{
-    c.OperationFilter<SwaggerDefaultValues>();
-
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Description = "JWT Authorization 报头使用Bearer架构.",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.Http,
-        Scheme = "bearer"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {
-                        new OpenApiSecurityScheme
-                        {
-                            Reference = new OpenApiReference
-                            {
-                                Type = ReferenceType.SecurityScheme,
-                                Id = "Bearer"
-                            }
-                        }, new List<string>()
-                    }
-                });
-});
-
+//Extension
+builder.Services.AddApiVersioningExtension();
+builder.Services.AddVersionedApiExplorerExtension();
+builder.Services.AddSwaggerGenExtension();
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-#endregion
+ 
 
 //添加一个单页（SPA）的静态文件服务，确保放在SwaggerGenOptions下。
 //builder.Services.AddSpaStaticFiles(configuration =>
@@ -110,20 +75,9 @@ builder.Services.AddVersionedApiExplorer(options =>
 var app = builder.Build();
 
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    //app.UseSwaggerUI();
-    app.UseSwaggerUI(c =>
-    {
-        foreach (var description in apiVersionDescriptionProvider.ApiVersionDescriptions)
-        {
-            c.SwaggerEndpoint(
-                $"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
-        }
-    });
+    app.UseSwaggerExtension(apiVersionDescriptionProvider);
 }
 
 app.UseStaticFiles();

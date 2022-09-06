@@ -12,8 +12,6 @@ using System.Threading.Tasks;
 
 namespace Iot.WebApi.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
     public class ProductController : ApiController
     {
         [HttpGet]
