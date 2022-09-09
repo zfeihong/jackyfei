@@ -1,9 +1,6 @@
 const getters = {
   lists: (state) => state.lists,
   loading: (state) => state.loading,
-  Jackyfei: function (state) {
-    const re = state.lists;
-    return re;
-  },
+  devicesOfSelectedProductId: (state) => state.deviceOfSelectedProductId,
 };
 export default getters;

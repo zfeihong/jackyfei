@@ -130,3 +130,6 @@ D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.pr
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220904.json
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220905.json
 D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220906.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220907.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220908.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\src\3.presentation\Iot.WebApi\bin\Debug\net6.0\Logs\log20220909.json
