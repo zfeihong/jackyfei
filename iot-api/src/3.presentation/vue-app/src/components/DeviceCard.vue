@@ -51,7 +51,7 @@
             <v-list-item>
               <v-list-item-content>
                 <v-list-item-title
-                  v-text="'No package added yet 😢'"
+                  v-text="'没有相关设备😢'"
                 ></v-list-item-title>
               </v-list-item-content>
             </v-list-item>

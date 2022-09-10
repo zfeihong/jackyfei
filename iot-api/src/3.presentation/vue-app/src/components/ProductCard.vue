@@ -40,7 +40,7 @@
 import { mapActions, mapGetters } from "vuex";
 
 export default {
-  name: "ProductCard2",
+  name: "ProductCard",
 
   computed: {
     ...mapGetters("productModule", {
@@ -62,7 +62,7 @@ export default {
     },
     addToDevice(devices, listId) {
       this.getDevicesOfSelectedProductIdAction(devices);
-      this.$emit("handleShowPackages", true, listId);
+      this.$emit("handleDevices", true, listId);
     },
   },
 };

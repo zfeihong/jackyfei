@@ -92,7 +92,7 @@ import { getProductCategory } from "@/helpers/collections";
 import { mapActions } from "vuex";
 
 export default {
-  name: "AddProductForm2",
+  name: "AddProductForm",
 
   data: () => ({
     bodyRequest: {

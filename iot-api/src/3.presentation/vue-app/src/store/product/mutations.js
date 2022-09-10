@@ -10,7 +10,7 @@ const mutations = {
   },
 
   [types.REMOVE_PRODUCT](state, id) {
-    state.lists = state.lists.filter((tl) => tl.id !== id);
+    state.lists = state.lists.filter((o) => o.id !== id);
     state.deviceOfSelectedProductId = [];
   },
 
@@ -24,7 +24,7 @@ const mutations = {
 
   [types.REMOVE_DEVICE](state, id) {
     state.deviceOfSelectedProductId = state.deviceOfSelectedProductId.filter(
-      (tp) => tp.id !== id
+      (o) => o.id !== id
     );
   },
 
@@ -33,15 +33,15 @@ const mutations = {
   },
 
   [types.UPDATE_DEVICE](state, payload) {
-    const packageIndex = state.deviceOfSelectedProductId.findIndex(
+    const deviceIndex = state.deviceOfSelectedProductId.findIndex(
       (pl) => pl.id === payload.id
     );
-    state.deviceOfSelectedProductId[packageIndex] = payload;
+    state.deviceOfSelectedProductId[deviceIndex] = payload;
 
-    const listIndex = state.lists.findIndex(
+    const productIndex = state.lists.findIndex(
       (l) => l.id === state.deviceOfSelectedProductId.listId
     );
-    state.lists[listIndex] = state.deviceOfSelectedProductId;
+    state.lists[productIndex] = state.deviceOfSelectedProductId;
   },
 };
 

@@ -3,7 +3,7 @@
     <div class="text-h2 my-4">欢迎来到 Admin Dashboard</div>
     <div class="default-content">
       <div style="margin-right: 4rem; margin-bottom: 4rem">
-        <ProductCard @handleShowPackages="handleShowPackages" />
+        <ProductCard @handleDevices="handleDevices" />
         <AddProductForm />
       </div>
       <div v-if="showDevices">
@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     ...mapActions("productModule", ["getProductAction"]),
-    handleShowPackages(show, listId) {
+    handleDevices(show, listId) {
       this.showDevices = show;
       this.productId = listId;
     },

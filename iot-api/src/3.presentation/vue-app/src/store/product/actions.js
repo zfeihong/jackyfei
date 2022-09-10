@@ -44,7 +44,7 @@ export async function addProductAction({ commit }, payload) {
   try {
     const { data } = await postProductAxios(payload);
     payload.id = data;
-    payload.tourPackages = [];
+    payload.productCategory = [];
     commit(types.ADD_PRODUCT, payload);
   } catch (e) {
     alert(e);

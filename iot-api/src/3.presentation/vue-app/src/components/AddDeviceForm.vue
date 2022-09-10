@@ -85,7 +85,7 @@
 import { mapActions } from "vuex";
 
 export default {
-  name: "AddDeviceForm2",
+  name: "AddDeviceForm",
 
   props: {
     productId: {
@@ -115,8 +115,6 @@ export default {
 
     onSubmit() {
       this.bodyRequest.productId = this.productId;
-      this.addDeviceAction(this.bodyRequest);
-      this.bodyRequest = {};
     },
   },
 };
