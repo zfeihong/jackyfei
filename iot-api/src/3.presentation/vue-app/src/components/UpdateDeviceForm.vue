@@ -76,6 +76,7 @@ export default {
     bodyRequest: {
       type: Object,
       required: true,
+      // eslint-disable-next-line vue/require-valid-default-prop
       default: {
         id: 0,
         name: "missing name",

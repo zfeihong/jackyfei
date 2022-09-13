@@ -25,11 +25,20 @@
           <span class="menu">关于</span>
         </v-btn>
       </router-link>
-
-      <v-btn color="primary" outlined :to="{ path: '/admin-dashboard' }">
+      <router-link to="/continue-as">
+        <v-btn color="primary" outlined>
+          <span class="menu">是否继续</span>
+        </v-btn>
+      </router-link>
+      <v-btn
+        v-if="isAuthenticated"
+        color="primary"
+        outlined
+        :to="{ path: '/admin-dashboard' }"
+      >
         <span class="menu">工作台</span>
       </v-btn>
-      <v-btn color="primary" outlined :to="{ path: '/login' }">
+      <v-btn v-else color="primary" outlined :to="{ path: '/login' }">
         <span class="menu">登录</span>
       </v-btn>
     </div>
@@ -37,8 +46,16 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: "NavBar",
+  computed: {
+    ...mapGetters("authModule", {
+      isAuthenticated: "isAuthenticated",
+      email: "email",
+    }),
+  },
 };
 </script>
 

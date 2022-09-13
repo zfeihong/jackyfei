@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Iot.WebApi.Controllers.v1
 {
-    //[Authorize]
+    [Authorize]
     [ApiVersion("1.0")]
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

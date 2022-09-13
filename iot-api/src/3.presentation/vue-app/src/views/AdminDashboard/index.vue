@@ -17,6 +17,7 @@
         <v-list-item link>
           <v-list-item-content>
             <v-list-item-subtitle>邮箱</v-list-item-subtitle>
+            <v-list-item-subtitle>{{ email }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -74,8 +75,28 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from "vuex";
+
 export default {
   name: "AdminDashboard",
+
+  methods: {
+    ...mapActions("authModule", ["useLocalStorageTokenToSignInAction"]),
+    localstorageLogin() {
+      this.useLocalStorageTokenToSignInAction().then();
+    },
+  },
+
+  computed: {
+    ...mapGetters("authModule", {
+      isAuthenticated: "isAuthenticated",
+      email: "email",
+    }),
+  },
+
+  mounted() {
+    this.localstorageLogin();
+  },
 };
 </script>
 
