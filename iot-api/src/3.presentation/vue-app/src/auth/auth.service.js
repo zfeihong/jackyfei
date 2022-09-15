@@ -16,6 +16,7 @@ export function logOut() {
   window.location = "/login";
 }
 
+//本地token是否过期
 export function isTokenFromLocalStorageValid() {
   const token = localStorage.getItem(key);
   if (!token) {
@@ -29,6 +30,7 @@ export function isTokenFromLocalStorageValid() {
   return dateNow <= expiresAt;
 }
 
+// 从token中获取email
 export function getUserEmailFromToken() {
   const token = localStorage.getItem(key);
 

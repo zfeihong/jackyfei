@@ -6854,6 +6854,11 @@
     "@vue/compiler-sfc" "2.7.10"
     "csstype" "^3.1.0"
 
+"vuelidate@^0.7.7":
+  "integrity" "sha512-pT/U2lDI67wkIqI4tum7cMSIfGcAMfB+Phtqh2ttdXURwvHRBJEAQ0tVbUsW9Upg83Q5QH59bnCoXI7A9JDGnA=="
+  "resolved" "https://registry.npmjs.org/vuelidate/-/vuelidate-0.7.7.tgz"
+  "version" "0.7.7"
+
 "vuetify-loader@^1.7.0":
   "integrity" "sha512-8PP2w7aAs/rjA+Izec6qY7sHVb75MNrGQrDOTZJ5IEnvl+NiFhVpU2iWdRDZ3eMS842cWxSWStvkr+KJJKy+Iw=="
   "resolved" "https://registry.npmmirror.com/vuetify-loader/-/vuetify-loader-1.9.2.tgz"

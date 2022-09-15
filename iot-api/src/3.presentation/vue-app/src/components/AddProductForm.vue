@@ -46,6 +46,9 @@
                   <v-text-field
                     label="代码"
                     v-model="bodyRequest.code"
+                    @input="$v.bodyRequest.code.$touch()"
+                    @blur="$v.bodyRequest.code.$touch()"
+                    :error-messages="codeErrors"
                     required
                   ></v-text-field>
                 </v-col>
@@ -90,6 +93,7 @@
 <script>
 import { getProductCategory } from "@/helpers/collections";
 import { mapActions } from "vuex";
+import validators from "@/validators";
 
 export default {
   name: "AddProductForm",
@@ -104,6 +108,24 @@ export default {
     dialog: false,
     productCategory: getProductCategory(),
   }),
+
+  computed: {
+    codeErrors() {
+      const errors = [];
+      if (!this.$v.bodyRequest.code.$dirty) return errors;
+
+      !this.$v.bodyRequest.code.required && errors.push("代码必填");
+      !this.$v.bodyRequest.code.maxLength && errors.push("代码长度为90");
+
+      return errors;
+    },
+  },
+
+  validations: {
+    bodyRequest: {
+      code: validators.code,
+    }
+  },
 
   methods: {
     ...mapActions("productModule", ["addProductAction"]),

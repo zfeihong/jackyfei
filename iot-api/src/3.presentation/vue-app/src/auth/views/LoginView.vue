@@ -115,9 +115,9 @@
 </template>
 
 <script>
-// import validators from "@/validators";
 import { mapActions } from "vuex";
 import router from "@/router";
+import validators from "@/validators";
 
 export default {
   name: "LoginView",
@@ -145,31 +145,30 @@ export default {
     },
   },
 
-  // computed: {
-  //   emailErrors() {
-  //     const errors = [];
-  //     if (!this.$v.login.email.$dirty) return errors;
+  computed: {
+    emailErrors() {
+      const errors = [];
+      if (!this.$v.login.email.$dirty) return errors;
 
-  //     !this.$v.login.email.email && errors.push("Must be valid e-mail");
-  //     !this.$v.login.email.required && errors.push("E-mail is required");
+      !this.$v.login.email.email && errors.push("E-mail 无限");
+      !this.$v.login.email.required && errors.push("E-mail 必填");
 
-  //     return errors;
-  //   },
+      return errors;
+    },
 
-  //   passwordErrors() {
-  //     const errors = [];
-  //     if (!this.$v.login.password.$dirty) return errors;
+    passwordErrors() {
+      const errors = [];
+      if (!this.$v.login.password.$dirty) return errors;
 
-  //     !this.$v.login.password.required && errors.push("Password is required");
-  //     !this.$v.login.password.minLength &&
-  //       errors.push("Minimum characters is 8");
+      !this.$v.login.password.required && errors.push("密码必填");
+      !this.$v.login.password.minLength && errors.push("最少填写8个字符");
 
-  //     return errors;
-  //   },
-  // },
+      return errors;
+    },
+  },
 
-  // validations: {
-  //   login: validators.login,
-  // },
+  validations: {
+    login: validators.login,
+  },
 };
 </script>

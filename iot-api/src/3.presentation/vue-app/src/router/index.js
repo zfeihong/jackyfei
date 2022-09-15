@@ -31,9 +31,11 @@ const routes = [
     // component: () => import("../views/Main/LoginView.vue"),
     component: () => import("@/auth/views/LoginView"),
     meta: { requiresAuth: false },
+    //登录时，判断token是否过期
     beforeEnter: (to, from, next) => {
       const valid = isTokenFromLocalStorageValid();
-      console.log("VALID::", valid);
+      // alert(valid);
+      // console.log("VALID::", valid);
       if (valid) {
         next("/continue-as");
       } else {
