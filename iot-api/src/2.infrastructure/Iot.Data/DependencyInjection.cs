@@ -14,10 +14,9 @@ namespace Iot.Data
     {
         public static IServiceCollection AddInfrastructureData(this IServiceCollection services, IConfiguration config)
         {
-
             services.AddDbContext<IotDbContext>(options => options
               //.UseSqlite("Data Source=IotDatabase.sqlite3"));
-              .UseSqlite(config.GetConnectionString("DefaultConnection")));
+              .UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IApplicationDbContext>(provider => provider.GetService<IotDbContext>());
 

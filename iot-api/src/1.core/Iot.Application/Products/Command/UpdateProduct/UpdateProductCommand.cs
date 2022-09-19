@@ -14,6 +14,7 @@ namespace Iot.Application.Products.Commands.UpdateProduct
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? Code { get; set; }
+        public string? Secret { get; set; }
     }
 
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
@@ -33,6 +34,8 @@ namespace Iot.Application.Products.Commands.UpdateProduct
                 throw new NotFoundException(nameof(Products), request.Id);
             }
             entity.Name = request.Name;
+            entity.Code = request.Code;
+            entity.Secret = request.Secret;
             await _context.SaveChangesAsync(cancellationToken);
 
             return Unit.Value;

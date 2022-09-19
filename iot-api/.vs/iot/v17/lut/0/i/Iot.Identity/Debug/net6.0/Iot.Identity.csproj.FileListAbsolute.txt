@@ -1,0 +1,10 @@
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\b\Iot.Identity\Debug\net6.0\Iot.Identity.deps.json
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\b\Iot.Identity\Debug\net6.0\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\b\Iot.Identity\Debug\net6.0\ref\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.csproj.AssemblyReference.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.GeneratedMSBuildEditorConfig.editorconfig
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.AssemblyInfoInputs.cache
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.AssemblyInfo.cs
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.csproj.CopyComplete
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\Iot.Identity.dll
+D:\jackyfei\我录制的视频\.NET 6.0+Vue 3.0\github\jackyfei\iot-api\.vs\iot\v17\lut\0\i\Iot.Identity\Debug\net6.0\ref\Iot.Identity.dll

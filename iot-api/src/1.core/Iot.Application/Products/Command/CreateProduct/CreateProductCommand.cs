@@ -28,7 +28,9 @@ namespace Iot.Application.Products.Command.CreateProduct
 
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var entity = new Product { Name = request.Name };
+            var entity = new Product { 
+                Name = request.Name,Code=request.Code,Secret=request.Secret
+            };
             _context.Products.Add(entity);
             await _context.SaveChangesAsync(cancellationToken);
 

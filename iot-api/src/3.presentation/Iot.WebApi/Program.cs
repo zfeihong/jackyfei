@@ -34,7 +34,6 @@ builder.Services.AddApiVersioningExtension();
 builder.Services.AddVersionedApiExplorerExtension();
 builder.Services.AddSwaggerGenExtension();
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
- 
 
 //添加一个单页（SPA）的静态文件服务，确保放在SwaggerGenOptions下。
 //builder.Services.AddSpaStaticFiles(configuration =>
@@ -137,6 +136,21 @@ Log.Logger = new LoggerConfiguration()
 try
 {
     Log.Information("Starting host");
+    using (var scope = builder.Services.BuildServiceProvider().CreateScope())
+    {
+        var services = scope.ServiceProvider;
+
+
+        var context = services.GetRequiredService<IotDbContext>();
+
+        if (context.Database.IsSqlServer())
+            await context.Database.MigrateAsync();
+
+        await IotDbContextSeed.SeedSampleDataAsync(context);
+
+    }
+
+
     app.Run();
     return 0;
 }

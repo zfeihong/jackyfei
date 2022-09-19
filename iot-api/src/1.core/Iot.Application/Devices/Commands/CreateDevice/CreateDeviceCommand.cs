@@ -33,6 +33,7 @@ namespace Iot.Application.Devices.Commands.CreateDevice
             {
                 Name = request.Name,
                 Code = request.Code,
+                Secret = request.Secret,
                 ProductId = request.ProductId
             };
 

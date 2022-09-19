@@ -2,7 +2,6 @@
 using Iot.Application.Devices.Commands.DeleteDevice;
 using Iot.Application.Devices.Commands.UpdateDevice;
 using Iot.Application.Devices.Queries.GetDevices;
-using Iot.Application.Devices.Queries.GetProducts;
 using Iot.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

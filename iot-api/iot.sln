@@ -1,35 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{583A574F-1DDD-45DC-83FC-994BB9AA3E55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.core", "1.core", "{CA440B2E-12F4-452C-8C62-B68730B6D852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Domain", "src\1.core\Iot.Domain\Iot.Domain.csproj", "{53B4EE32-2DC0-4124-8C7B-9CCADB1E13DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Domain", "src\1.core\Iot.Domain\Iot.Domain.csproj", "{53B4EE32-2DC0-4124-8C7B-9CCADB1E13DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Application", "src\1.core\Iot.Application\Iot.Application.csproj", "{3A867CFC-1B08-4B38-8456-A4B67DD930C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Application", "src\1.core\Iot.Application\Iot.Application.csproj", "{3A867CFC-1B08-4B38-8456-A4B67DD930C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.infrastructure", "2.infrastructure", "{6A0683D4-8D65-43D0-92A3-84717D7A9142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Data", "src\2.infrastructure\Iot.Data\Iot.Data.csproj", "{F37286C4-BDDE-4FEB-B997-7A912A689B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Data", "src\2.infrastructure\Iot.Data\Iot.Data.csproj", "{F37286C4-BDDE-4FEB-B997-7A912A689B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Shared", "src\2.infrastructure\Iot.Shared\Iot.Shared.csproj", "{569CE082-7069-4284-BC30-CD47DBA9C626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Shared", "src\2.infrastructure\Iot.Shared\Iot.Shared.csproj", "{569CE082-7069-4284-BC30-CD47DBA9C626}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.presentation", "3.presentation", "{FFFAA710-C82E-4374-81F3-E4F046A2E7B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.WebApi", "src\3.presentation\Iot.WebApi\Iot.WebApi.csproj", "{4C8A5837-6923-473A-BA19-C1388B77A900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.WebApi", "src\3.presentation\Iot.WebApi\Iot.WebApi.csproj", "{4C8A5837-6923-473A-BA19-C1388B77A900}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iot.Identity", "src\2.infrastructure\Iot.Identity\Iot.Identity.csproj", "{07800114-8C50-40BB-8739-DFCCC3806BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iot.Identity", "src\2.infrastructure\Iot.Identity\Iot.Identity.csproj", "{07800114-8C50-40BB-8739-DFCCC3806BFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.IntegrationTests", "tests\Application.IntegrationTests\Application.IntegrationTests.csproj", "{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{527964B1-C7E2-4BE7-A207-4AA89202063E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{37D49F2D-493E-4AD4-BEAD-05662DCCCA6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{53B4EE32-2DC0-4124-8C7B-9CCADB1E13DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -56,6 +59,17 @@ Global
 		{07800114-8C50-40BB-8739-DFCCC3806BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07800114-8C50-40BB-8739-DFCCC3806BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07800114-8C50-40BB-8739-DFCCC3806BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527964B1-C7E2-4BE7-A207-4AA89202063E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527964B1-C7E2-4BE7-A207-4AA89202063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527964B1-C7E2-4BE7-A207-4AA89202063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527964B1-C7E2-4BE7-A207-4AA89202063E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CA440B2E-12F4-452C-8C62-B68730B6D852} = {583A574F-1DDD-45DC-83FC-994BB9AA3E55}
@@ -67,5 +81,10 @@ Global
 		{FFFAA710-C82E-4374-81F3-E4F046A2E7B7} = {583A574F-1DDD-45DC-83FC-994BB9AA3E55}
 		{4C8A5837-6923-473A-BA19-C1388B77A900} = {FFFAA710-C82E-4374-81F3-E4F046A2E7B7}
 		{07800114-8C50-40BB-8739-DFCCC3806BFD} = {6A0683D4-8D65-43D0-92A3-84717D7A9142}
+		{A90EC5B4-45A2-4128-A4EE-2B4FEDF502EF} = {37D49F2D-493E-4AD4-BEAD-05662DCCCA6E}
+		{527964B1-C7E2-4BE7-A207-4AA89202063E} = {37D49F2D-493E-4AD4-BEAD-05662DCCCA6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2858E5F-9C24-41E0-AF45-DB7F5EFBAFB9}
 	EndGlobalSection
 EndGlobal

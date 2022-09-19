@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Iot.Application.Common.Interfaces;
-using Iot.Application.Devices.Queries.GetDevices;
 using Iot.Application.Dto.Iot;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iot.Application.Devices.Queries.GetProducts
+namespace Iot.Application.Devices.Queries.GetDevices
 {
     public class GetDevicesQuery : IRequest<DevicesVm> { }
 
